@@ -1,0 +1,80 @@
+body{
+	background: #666;
+	color: white;
+	font-family: arial;
+	line-height: 1.4em;
+}
+
+a{
+	color: #fff;
+	text-decoration: none; 
+}
+.clr{
+	clear: both;
+}
+
+#container{
+	background: #333;
+	width: 960px;
+	padding: 10px;
+	margin: 30px auto;
+	overflow: hidden;
+}
+#nav{
+	height: 40px;
+	background: #666;
+}
+#nav ul{
+	padding-top: 13px;
+	padding-left: 10px;
+}
+
+#nav li{
+	list-style: none;
+	float: left;
+	padding-right: 20px;
+
+}
+#nav .active{
+	font-weight: bold;
+	color: black;
+}
+#main{
+	float: left;
+	width: 60%;
+}
+#sidebar{
+	float: right;
+	background: gray;
+	margin-top: 20px;
+	width: 30%;
+	padding: 10px;
+}
+#footer{
+	text-align: center;
+	padding: 10px;
+	background: gray;
+	margin-top: 10px;
+}
+
+.services a {
+background: gray;
+padding: 10px;
+}
+
+.services li{
+	border-bottom: 5px gray dashed;
+	padding-bottom: 20px;
+}
+
+input , textarea{
+	width: 100%;
+	padding-bottom: 10px;
+	margin-bottom: 10px;
+}
+#main button{
+	width: 25%;
+	background: gray;
+	color: white;
+	text-align: center;
+}
